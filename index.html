@@ -1,0 +1,43 @@
+<html lang="en">
+    <head>
+        <title>Etch-a-Sketch</title>
+        <meta charset="UTF-8" />
+        <link rel="stylesheet" href="styles.css" />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Lacquer&family=Roboto&display=swap"
+          rel="stylesheet"
+        />
+        <script src="/home/kaiwen/jquery-3.7.0.min.js"></script>
+      </head>
+      <body>
+        <div class = "gridtest" id ="gridtest"> 
+          <label for="cars">Choose a color:</label>
+
+          <select name="colors" id="colors">
+            <option value="blue">Blue</option>
+            <option value="red">Red</option>
+            <option value="yellow">Yellow</option>
+            <option value="green">Green</option>
+          </select>   
+            
+        </div>
+        <div class = "gridtest">
+          <button id = "cleansheet"> Clean sheet</button>
+        </div>
+        <div class = "gridtest">
+          <button id = "randomizesheet"> Randomize sheet </button>
+        </div>
+
+        <select name="size" id="size">
+          <option value="16">16 x 16</option>
+          <option value="32">32 x 32</option>
+
+        </select>  
+        <div class = "container" id = "container"> 
+          <div class = "grid" id = "grid"> 
+              
+          </div>
+        </div>
+      </body>
+      <script src="script.js"></script>
+</html>
